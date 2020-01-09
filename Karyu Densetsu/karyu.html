@@ -13,16 +13,16 @@
   <div class='sheet-3colrow'>
     <div class='sheet-col'>
       <h3>Aura:</h3>
-      <input type="number" style="width:40px;height:30px" name="attr_aura" placeholder="1" /> 
+      <input type="number" style="width:40px;height:30px" name="attr_aura" placeholder="1" />
     </div>
     <div class='sheet-col'>
-      <h3>Sincronização:</h3>
-      <input type="number" style="width:40px;height:30px" name="attr_sinx" placeholder="0" /> 
+      <h3>Sincronizaï¿½ï¿½o:</h3>
+      <input type="number" style="width:40px;height:30px" name="attr_sinx" placeholder="0" />
     </div>
     <div class='sheet-col'>
       <span>
         <h3>Nagen:</h3>
-        <input type="number" style="width:40px;height:30px" name="attr_nagen" placeholder="0" /> 
+        <input type="number" style="width:40px;height:30px" name="attr_nagen" placeholder="0" />
       </span>
     </div>
   </div>
@@ -41,9 +41,9 @@
       <input type="checkbox"> <br/>
         <p>&nbsp;</p>
   </div>
-  
+
   <div class='sheet-col lacos'>
-  <h3>Laços:</h3>
+  <h3>Laï¿½os:</h3>
     <fieldset class="repeating_bonds" name="attr_bond">
         <tr>
             <td><input type="text" name="attr_bondname"></td>
@@ -66,37 +66,37 @@
 <div class='sheet-col'>
   <h3>Atributos:</h3>
     Agilidade <input type="number" name="attr_agi" class="atr" style="width:40px;height:30px"/>
-    Força <input type="number" name="attr_for" class="atr" style="width:40px;height:30px"/>
+    Forï¿½a <input type="number" name="attr_for" class="atr" style="width:40px;height:30px"/>
     Instinto <input type="number" name="attr_ins" class="atr" style="width:40px;height:30px"/>
-    Presença <input type="number" name="attr_pre" class="atr" style="width:40px;height:30px"/>
-    Razão <input type="number" name="attr_raz" class="atr" style="width:40px;height:30px"/>
+    Presenï¿½a <input type="number" name="attr_pre" class="atr" style="width:40px;height:30px"/>
+    Razï¿½o <input type="number" name="attr_raz" class="atr" style="width:40px;height:30px"/>
     Vontade <input type="number" name="attr_von" class="atr" style="width:40px;height:30px"/>
 </div>
 
 <p>&nbsp;</p>
 
 <div class='sheet-8colrow'>
-    <div class='sheet-col'>        
+    <div class='sheet-col'>
       <h3>Atributos Derivados:</h3>
-      <b>Limiar de Defesa</b> (Instinto) 
+      <b>Limiar de Defesa</b> (Instinto)
       <input type="number" disabled=true value="@{Aura}+@{agi}+@{ins}+@{evasao}+@{DefMod}" name="attr_DefIns"> <br/>
-      <b>Limiar de Defesa</b> (Razão) 
+      <b>Limiar de Defesa</b> (Razao)
       <input type="number" disabled=true value="@{Aura}+@{agi}+@{raz}+@{evasao}+@{DefMod}" name="attr_DefRaz">
-      Bônus/Penalidade de Defesa 
+      BÃ´nus/Penalidade de Defesa
       <input type="number" style="width:40px;height:30px" name="attr_DefMod" value="0" /> <br />
-      <b>Limiar de Proteção</b> 
+      <b>Limiar de ProteÃ§Ã£o</b>
       <input type="number" disabled=true value="@{Aura}+@{For}+@{Bloqueio}+@{ProtMod}" name="attr_Prot">
-      Bônus/Penalidade de Proteção 
+      BÃ´nus/Penalidade de ProteÃ§Ã£o
       <input type="number" style="width:40px;height:30px" name="attr_ProtMod" value="0" /> <br />
-      <b>Limiar de Canalização</b> 
+      <b>Limiar de CanalizaÃ§Ã£o</b>
       <input type="number" disabled=true value="@{Aura}+@{CanMod}+2" name="attr_Can">
-      Bônus/Penalidade de Canalização 
+      BÃ´nus/Penalidade de CanalizaÃ§Ã£o
       <input type="number" style="width:40px;height:30px" name="attr_CanMod" value="0" /> <br />
-      <b>Barra de Vigor</b> Máxima 
+      <b>Barra de Vigor</b> MÃ¡xima
       <input type="number" disabled=true value="@{Aura}+@{for}+@{von}+@{VigMod}" name="attr_VigMax">
-      Atual 
+      Atual
       <input type="number" value="@{VigMax}">
-      Bônus/Penalidade de Vigor: 
+      BÃ´nus/Penalidade de Vigor: 
       <input type="number" style="width:40px;height:30px" name="attr_VigMod" value="0" /> <br />
     </div>
 </div>
@@ -108,13 +108,13 @@
             <input type="checkbox" name="attr_injury" class="checkboxInjury">
 </div>
 
-  
+
 <p>&nbsp;</p>
 
 
 <div class='sheet-3colrow'>
 
-  <h3>Ocupações:</h3>
+  <h3>Ocupaï¿½ï¿½es:</h3>
 
     <div class='sheet-col'>
       Artista <select name="attr_artista" class="ocu" style="width:40px;height:30px">
@@ -150,7 +150,7 @@
           <option value="2">2</option>
           <option value="3">3</option>
           </select> <br />
-        Místico <select name="attr_mistico" class="ocu" style="width:40px;height:30px" >
+        Mï¿½stico <select name="attr_mistico" class="ocu" style="width:40px;height:30px" >
           <option value="0">0</option>
           <option value="1">1</option>
           <option value="2">2</option>
@@ -181,22 +181,22 @@
 </div>
 
 <p>&nbsp;</p>
-  
+
 <div class='sheet-2colrow'>
-    
+
     <div class='sheet-col'>
-        <h3>Estilo de Luta:</h3>  
+        <h3>Estilo de Luta:</h3>
         <input type="text" name="attr_nomestilo" placeholder="Nome do Estilo"/>
     </div>
-    
+
     <div class='sheet-col'>
-      Agarrão <img src="https://cdn-images-1.medium.com/max/800/1*dKFHUTB3MRedKsNk1JbhiA.png" style="width:35px;height:35px">
+      Agarrï¿½o <img src="https://cdn-images-1.medium.com/max/800/1*dKFHUTB3MRedKsNk1JbhiA.png" style="width:35px;height:35px">
           <select name="attr_agarrao" class="esl" style="width:40px;height:30px">
             <option value="0">0</option>
             <option value="1">1</option>
             <option value="2">2</option>
             <option value="3">3</option>
-          </select> 
+          </select>
 
           <p>&nbsp;</p>
 
@@ -206,29 +206,29 @@
             <option value="1">1</option>
             <option value="2">2</option>
             <option value="3">3</option>
-          </select> 
+          </select>
 
           <p>&nbsp;</p>
 
-      Combo <img src="https://cdn-images-1.medium.com/max/800/1*dkHWSzcqYCHojTfLqZFz7A.png" style="width:35px;height:35px"> 
+      Combo <img src="https://cdn-images-1.medium.com/max/800/1*dkHWSzcqYCHojTfLqZFz7A.png" style="width:35px;height:35px">
           <select name="attr_combo" class="esl" style="width:40px;height:30px" checked='true'>
             <option value="0">0</option>
             <option value="1">1</option>
             <option value="2">2</option>
             <option value="3">3</option>
-          </select> 
+          </select>
     </div>
 
 
   <div class='sheet-col'>
 
-    Projétil <img src="https://cdn-images-1.medium.com/max/800/1*Nsi0Ol2lRVvuNOYJb8oxrQ.png" style="width:35px;height:35px">
+    Projï¿½til <img src="https://cdn-images-1.medium.com/max/800/1*Nsi0Ol2lRVvuNOYJb8oxrQ.png" style="width:35px;height:35px">
       <select name="attr_projetil" class="esl" style="width:40px;height:30px" checked='true'>
         <option value="0">0</option>
         <option value="1">1</option>
         <option value="2">2</option>
         <option value="3">3</option>
-      </select> 
+      </select>
 
       <p>&nbsp;</p>
 
@@ -238,11 +238,11 @@
         <option value="1">1</option>
         <option value="2">2</option>
         <option value="3">3</option>
-      </select> 
+      </select>
 
       <p>&nbsp;</p>
 
-    Evasão <img src="https://cdn-images-1.medium.com/max/800/1*eBRhDYyN_mFCbGZ6Cqhuww.png" style="width:35px;height:35px">
+    Evasï¿½o <img src="https://cdn-images-1.medium.com/max/800/1*eBRhDYyN_mFCbGZ6Cqhuww.png" style="width:35px;height:35px">
         <select name="attr_evasao" class="esl" style="width:40px;height:30px">
         <option value="0">0</option>
         <option value="1">1</option>
@@ -259,39 +259,39 @@
     <h3>Trunfos:</h3>
 
     <input type="text" name="trunfo1" placeholder="Trunfo 1" /><br />
-    <textarea name="attr_trunfo1" placeholder="Descrição do Trunfo" rows="10" cols="40"></textarea><br />
+    <textarea name="attr_trunfo1" placeholder="Descriï¿½ï¿½o do Trunfo" rows="10" cols="40"></textarea><br />
     <input type="text" name="trunfo2" placeholder="Trunfo 2" /><br />
-    <textarea name="attr_trunfo2" placeholder="Descrição do Trunfo" rows="10" cols="40"></textarea><br />
+    <textarea name="attr_trunfo2" placeholder="Descriï¿½ï¿½o do Trunfo" rows="10" cols="40"></textarea><br />
   </div>
 
   <div class='sheet-col'>
 
-    <h3>Técnicas:</h3>
-      <fieldset class="repeating_techs" name="attr_techs">            
-        <input type="text" name="attr_tech" placeholder="Nome da Técnica"/> <br />    
+    <h3>Tï¿½cnicas:</h3>
+      <fieldset class="repeating_techs" name="attr_techs">
+        <input type="text" name="attr_tech" placeholder="Nome da Tï¿½cnica"/> <br />
 
-        <span>Tipo de Técnica:</span><br />
+        <span>Tipo de Tï¿½cnica:</span><br />
         <select name="attr_skilltype" class="tipo" checked='true'>
-          <option>Agarrão</option>
+          <option>Agarrï¿½o</option>
           <option>Bloqueio</option>
           <option>Combo</option>
-          <option>Evasão</option>
+          <option>Evasï¿½o</option>
           <option>Golpe</option>
           <option>Nenhum</option>
-          <option>Projétil</option>
+          <option>Projï¿½til</option>
         </select> <br />
-        
-        <span>Elemento de Técnica:</span><br />
+
+        <span>Elemento de Tï¿½cnica:</span><br />
         <select name="attr_skillelement" class="tipo" checked='true'>
-          <option>Água</option>
+          <option>ï¿½gua</option>
           <option>Ar</option>
-          <option>Éter</option>
+          <option>ï¿½ter</option>
           <option>Fogo</option>
           <option>Terra</option>
         </select><br />
 
-        <span>Descrição da Técnica:</span>
-        <textarea name="attr_skilldescription" placeholder="Descrição da Técnica" rows="10" cols="40"></textarea><br />
+        <span>Descriï¿½ï¿½o da Tï¿½cnica:</span>
+        <textarea name="attr_skilldescription" placeholder="Descriï¿½ï¿½o da Tï¿½cnica" rows="10" cols="40"></textarea><br />
 
           Nagen <input type="number" style="width:40px;height:30px" name="attr_nagen"> Dano <input type="number" style="width:40px;height:30px" name="attr_damage">
           Ougi <input type="checkbox" name="attr_ougi"> <input type:"text" style="width:300px" placeholder="Efeito do Ougi" name="attr_ougieffect"><br />
